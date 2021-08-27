@@ -3,32 +3,40 @@
     padding: 0;
 }
 
+.header, .sidebar, .content, footer{
+    padding: 25px 20px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .header{
     grid-area: header;
     background-color: rgb(204, 250, 235);
+    justify-content: center;
 }
 
 .sidebar{
     grid-area: sidebar;
     background-color: rgb(169, 235, 255);
-    padding: 25px 20px;
 }
 .content{
     grid-area: main;
-    justify-self: stretch;
 }
 
 footer{
     grid-area: footer;
     background-color: rgb(253, 201, 255);
-
+    justify-content: center;
+    align-items: center;
 }
 
 
 body{
     display: grid;
     grid-template-columns: 250px auto;
-    grid-template-rows: 100px auto 50px;
+    grid-template-rows: 100px auto 70px;
     grid-template-areas: 
     "sidebar header"
     "sidebar main"
@@ -44,7 +52,6 @@ img{
 
 .nav_links{
     list-style: none;
-
 }
 
 .nav_link{
