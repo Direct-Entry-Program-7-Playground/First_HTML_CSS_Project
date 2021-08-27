@@ -5,6 +5,7 @@
 }
 h1{
     margin: 1;
+
 }
 p{
     line-height: 1.6;
@@ -62,7 +63,12 @@ img{
 
 .nav_link{
     margin: .6em 0;
-    padding: 1.2em 1.2em;
+    padding: .8em 1.2em;
     background-color: antiquewhite;
     text-align: center;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.nav_link:hover,.nav_link:focus{
+    background-color: rgb(241, 208, 164);
 }
