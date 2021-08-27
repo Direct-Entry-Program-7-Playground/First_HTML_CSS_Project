@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    grid-area: header;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+.content{
+    grid-area: main;
+    justify-self: stretch;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "sidebar header"
+    "sidebar main"
+    "sidebar footer"
+    ;
+}
