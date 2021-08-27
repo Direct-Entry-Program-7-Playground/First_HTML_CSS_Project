@@ -44,7 +44,7 @@ p{
 }
 .content{
     grid-area: main;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 footer{
