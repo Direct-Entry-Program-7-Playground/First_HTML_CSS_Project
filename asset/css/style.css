@@ -11,7 +11,7 @@
 .sidebar{
     grid-area: sidebar;
     background-color: rgb(169, 235, 255);
-
+    padding: 25px 20px;
 }
 .content{
     grid-area: main;
@@ -36,4 +36,20 @@ body{
     ;
     width: 100vw;
     height: 100vh;
+}
+
+img{
+    width: 100%;
+}
+
+.nav_links{
+    list-style: none;
+
+}
+
+.nav_link{
+    margin: 10px 0;
+    padding: 20px 20px;
+    background-color: antiquewhite;
+    text-align: center;
 }
