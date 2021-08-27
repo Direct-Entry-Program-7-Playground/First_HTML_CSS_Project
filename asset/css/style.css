@@ -5,10 +5,13 @@
 
 .header{
     grid-area: header;
+    background-color: rgb(204, 250, 235);
 }
 
 .sidebar{
     grid-area: sidebar;
+    background-color: rgb(169, 235, 255);
+
 }
 .content{
     grid-area: main;
@@ -17,16 +20,20 @@
 
 footer{
     grid-area: footer;
+    background-color: rgb(253, 201, 255);
+
 }
 
 
 body{
     display: grid;
     grid-template-columns: 250px auto;
-    grid-template-rows: auto;
+    grid-template-rows: 100px auto 50px;
     grid-template-areas: 
     "sidebar header"
     "sidebar main"
     "sidebar footer"
     ;
+    width: 100vw;
+    height: 100vh;
 }
